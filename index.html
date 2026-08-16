@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <section class="header">
+              
+            <div style=" display: flex; justify-content: space-between; align-items: center;">
+               <table>
+                   <tr>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" style="width: 25px; height:25px; color: rgb(118, 101, 226);">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>
+                    </td>
+                    <td><b><span> Image <span style="color: rgb(118, 101, 226);"> Gallery </span> </span></b></td>
+                   </tr>
+               </table>
+            </div>
+
+            <div class="nav">
+               <div class="nav-btn one"><a href="" style="text-decoration: none;"> Home </a></div>
+               <div class="nav-btn "><a href="" style="text-decoration: none;"> About</a></div>
+            </div>
+
+        </section>
+        <br>
+        <section class="hero">
+            
+            <h1 style="margin: 1px; padding: 5px;">Images <span style="color: rgb(118, 102, 219);">Gallery</span></h1>
+            <p style="margin: 1px; padding: 5px; color: rgb(120, 121, 122); font-size: medium;">Explore high quality image using fetch API</p>
+            
+        </section>
+        <br>
+        <section class="controls">
+            <input class="search-bar" type="search" placeholder=" 🔍 search image">
+
+            <div class="search-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" width="15px" height="15px">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+                </svg>
+            </div>
+
+            <div>
+                <select name="category" id="" class="categorys">
+                    <option value="all">All category</option>
+                    <option value="nature">Nature</option>
+                    <option value="animal">Animal</option>
+                    <option value="technology">Technology</option>
+                </select>
+            </div>
+
+            <div class="refresh-btn">
+                <table>
+                    <tr>
+                        <td>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" style="width: 20px; height:20px;">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                            </svg>
+                       </td>
+                       <td>
+                          <span>Refresh</span>
+                       </td>
+                    </tr>
+                </table> 
+            </div>
+        </section>
+
+        <section class="grid">
+              
+        </section>
+
+        <br>
+        <br>
+
+        <section class="footer">
+            <div class="load-more-btn"> Load more </div>
+            <div class="img-counter"> Streaming 12 out of 120+ images</div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
