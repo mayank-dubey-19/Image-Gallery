@@ -48,6 +48,11 @@ A responsive image gallery with a clean UI, dynamic image loading, search functi
 
 click on the link : https://mayank-dubey-19.github.io/Image-Gallery/ 
 
+## 📸 Screenshots 
+
+<img width="1870" height="930" alt="image" src="https://github.com/user-attachments/assets/acf43625-aa8b-4649-a541-ef01e13ad2f9" />
+
+
 ### 👨‍💻 Author
 
 **Mayank Dubey**
