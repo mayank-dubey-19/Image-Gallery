@@ -50,8 +50,7 @@ click on the link : https://mayank-dubey-19.github.io/Image-Gallery/
 
 ## 📸 Screenshots 
 
-<img width="1870" height="930" alt="image" src="https://github.com/user-attachments/assets/acf43625-aa8b-4649-a541-ef01e13ad2f9" />
-
+<img width="1877" height="926" alt="image" src="https://github.com/user-attachments/assets/64081c6f-4db3-4fe3-bada-021fc336aeb2" />
 
 ### 👨‍💻 Author
 
