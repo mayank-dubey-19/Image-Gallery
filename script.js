@@ -6,7 +6,7 @@ let refresh_btn = document.querySelector(".refresh-btn");
 let grid = document.querySelector(".grid");
 let imgcounter = 12 ;
 
-const api_key = "";
+const api_key = "QU9rEpgHYxzGoBUlVs6J9aIKS6OIEHjBSv4NDaEQJqAMvAxhOlMQbQAn";
 
 let currentQuery = null;
 let currentPage = 1;
