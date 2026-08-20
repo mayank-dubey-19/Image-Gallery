@@ -265,3 +265,10 @@ refresh_btn.addEventListener("click", () => {
 });
 
 getphotos(null, 1, false);
+
+// Dark mode
+let themeSwitch = document.querySelector("#theme-switch");
+
+themeSwitch.addEventListener("change", () => {
+    document.body.classList.toggle("dark");
+});
