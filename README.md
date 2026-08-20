@@ -53,7 +53,8 @@ click on the link : https://mayank-dubey-19.github.io/Image-Gallery/
   <tr>
     <td><img width="1851" height="920" alt="image" src="https://github.com/user-attachments/assets/5ba4330c-0a04-4968-b109-9ed9dd0bd42d" />
 </td>
-  <td></td>
+  <td><img width="1866" height="925" alt="image" src="https://github.com/user-attachments/assets/236f4308-dae0-42ff-93fd-ad2bd5876512" />
+</td>
   </tr>
   <tr>
     <td><img width="1854" height="924" alt="image" src="https://github.com/user-attachments/assets/7fbaa502-5fa1-4574-a211-bde5298e3a94" />
