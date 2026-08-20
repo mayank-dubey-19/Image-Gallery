@@ -49,8 +49,19 @@ A responsive image gallery with a clean UI, dynamic image loading, search functi
 click on the link : https://mayank-dubey-19.github.io/Image-Gallery/ 
 
 ## 📸 Screenshots 
-
-<img width="1877" height="926" alt="image" src="https://github.com/user-attachments/assets/64081c6f-4db3-4fe3-bada-021fc336aeb2" />
+<table>
+  <tr>
+    <td><img width="1851" height="920" alt="image" src="https://github.com/user-attachments/assets/5ba4330c-0a04-4968-b109-9ed9dd0bd42d" />
+</td>
+  <td></td>
+  </tr>
+  <tr>
+    <td><img width="1854" height="924" alt="image" src="https://github.com/user-attachments/assets/7fbaa502-5fa1-4574-a211-bde5298e3a94" />
+</td>
+    <td><img width="1849" height="916" alt="image" src="https://github.com/user-attachments/assets/f66a678a-55c4-401c-8cff-6726ddc7ecbb" />
+</td>
+  </tr>
+</table>
 
 ### 👨‍💻 Author
 
