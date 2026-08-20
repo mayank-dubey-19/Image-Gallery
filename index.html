@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="both.css">
 </head>
 <body>
     <div class="main-container">
@@ -24,18 +25,49 @@
             </div>
 
             <div class="nav">
-               <div class="nav-btn one"><a href="" style="text-decoration: none;"> Home </a></div>
-               <div class="nav-btn "><a href="" style="text-decoration: none;"> About</a></div>
+               <div class="one" id="home"><a href="index.html" style="text-decoration: none; color: black;"> Home </a></div>
+               <div id="about"><a href="about.html" style="text-decoration: none; color:black;"> About</a></div>
+
+               <!-- Dark mode toggle: added -->
+               <label class="theme-toggle">
+                   <input type="checkbox" id="theme-switch">
+                   <span class="toggle-track">
+                       <span class="toggle-thumb">
+                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="11" height="11">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                           </svg>
+                       </span>
+                   </span>
+               </label>
+               <!-- Dark mode toggle end -->
+
             </div>
 
         </section>
         <br>
         <section class="hero">
-            
-            <h1 style="margin: 1px; padding: 5px;">Images <span style="color: rgb(118, 102, 219);">Gallery</span></h1>
-            <p style="margin: 1px; padding: 5px; color: rgb(120, 121, 122); font-size: medium;">Explore high quality image using fetch API</p>
-            
+
+           
+            <div class="hero-inner">
+                <div class="hero-images">
+                    <img src="asset/pexels-anh-nguyen-87266688-14486504.jpg" alt="Blue glacier lake in the mountains" class="hero-img img-1">
+                    <img src="asset/pexels-selman-arif-golbasi-322737964-13921909.jpg" alt="Mountain peak wrapped in clouds" class="hero-img img-2">
+                    <img src="asset/pexels-turbulent-imagery-3013266-7433714.jpg" alt="Purple sunset over mountain ridge" class="hero-img img-3">
+                </div>
+                <div class="hero-text">
+                    <h1 style="margin: 1px; padding: 5px;">Image <span style="color: rgb(118, 102, 219);">Gallery</span></h1>
+                    <p style="margin: 1px; padding: 5px; color: rgb(120, 121, 122); font-size: medium;">Explore high quality image using fetch API</p>
+                    <div class="hero-pills">
+                        <span class="pill">✨ High Quality</span>
+                        <span class="pill">⚡ Fast &amp; Reliable</span>
+                        <span class="pill">💕 Free to Use</span>
+                    </div>
+                </div>
+            </div>
+           
+
         </section>
+        
         <br>
         <section class="controls">
             <input class="search-bar" type="search" placeholder=" 🔍 search image">
@@ -85,5 +117,6 @@
     </div>
 
     <script src="script.js"></script>
+    <script src="both.js"></script>
 </body>
 </html>
