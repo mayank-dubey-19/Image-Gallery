@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    
+    <div class="main-container">
+        <section class="header">
+              
+            <div style=" display: flex; ">
+               <table>
+                   <tr>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6" style="width: 25px; height:25px; color: rgb(118, 101, 226);">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="m2.25 15.75 5.159-5.159a2.25 2.25 0 0 1 3.182 0l5.159 5.159m-1.5-1.5 1.409-1.409a2.25 2.25 0 0 1 3.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 0 0 1.5-1.5V6a1.5 1.5 0 0 0-1.5-1.5H3.75A1.5 1.5 0 0 0 2.25 6v12a1.5 1.5 0 0 0 1.5 1.5Zm10.5-11.25h.008v.008h-.008V8.25Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                        </svg>
+                    </td>
+                    <td><b><span> Image <span style="color: rgb(118, 101, 226);"> Gallery </span> </span></b></td>
+                   </tr>
+               </table>
+            </div>
+
+            <div class="nav">
+               <div  id="home"><a href="index.html" style="text-decoration: none; color: black;"> Home </a></div>
+               <div id="about" class="one"><a href="about.html" style="text-decoration: none; color:black;"> About</a></div>
+
+              
+               <label class="theme-toggle">
+                   <input type="checkbox" id="theme-switch">
+                   <span class="toggle-track">
+                       <span class="toggle-thumb">
+                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" width="11" height="11">
+                               <path stroke-linecap="round" stroke-linejoin="round" d="M21.752 15.002A9.72 9.72 0 0 1 18 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 0 0 3 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 0 0 9.002-5.998Z" />
+                           </svg>
+                       </span>
+                   </span>
+               </label>
+
+            </div>
+
+        </section>
+        <br>
+        <section class="hero">
+
+           <div style="display: flex; flex-wrap: wrap;  align-items: center; padding-left: 30px; gap:60px; ">
+            <div class="hero-inner" style="  display: flex;" >
+                
+                <div class="hero-text" >
+                    <div class="about-btn">About us</div>
+                    <h1 style="margin: 1px; padding: 5px;">Image <span style="color: rgb(118, 102, 219); font-size: medium;">Gallery</span></h1>
+                    <p style="margin: 1px; padding: 5px; color: rgb(120, 121, 122); font-size: 14px;">Image Gallery is a modern platform to discover, explore and download high quality images from Pexels API. Our mission is to make beautiful images accessible to everyone.</p>
+                    <div class="hero-pills">
+                        <span class="pill">✨ High Quality</span>
+                        <span class="pill">⚡ Fast &amp; Reliable</span>
+                        <span class="pill">💕 Free to Use</span>
+                    </div>
+                </div>
+
+            </div>
+            <div class="hero-images" >
+                    <img class="img1" src="asset/aboutimg1.png" alt="" class="heroimg">
+                    <img class="img2" src="asset/pexels-anh-nguyen-87266688-14486504.jpg" alt="" class="heroimg">
+                    <img class="img3" src="asset/aboutimg3.png" alt="" class="heroimg">
+            </div>
+           </div>
+
+        </section>
+
+        <section class="offer" style=" display: flex; flex-direction: column; border: 0.5 px solid black; padding: 10px; margin: 5px;  ">
+           <div class="off-head">
+                <div class="about-btn">What we offer</div>
+                <h2>Everything you need in one place</h2>
+           </div>
+           <div class="off-cards" style=" display: flex;">
+             <div class="offer-card">
+                 <div class="icon-box icon-purple">🖼️</div>
+                 <h4>High Quality Images</h4>
+                 <p>Access a vast collection of high resolution images from talented photographers around the world.</p>
+             </div>
+             <div class="offer-card">
+                 <div class="icon-box icon-blue">⚡</div>
+                 <h4>Fast & Easy Search</h4>
+                 <p>Find the perfect image quickly with our powerful search and category filters.</p>
+             </div>
+             <div class="offer-card">
+                 <div class="icon-box icon-pink">❤️</div>
+                 <h4>Free to Use</h4>
+                 <p>All images are free to download and use for personal and commercial projects.</p>
+             </div>
+           </div>
+        </section>
+    </div>
+<script>
+    let themeSwitch = document.querySelector("#theme-switch");
+
+       themeSwitch.addEventListener("change", () => {
+       document.body.classList.toggle("dark");
+
+    });
+</script>
+</body>
+</html>
