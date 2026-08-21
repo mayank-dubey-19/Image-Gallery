@@ -73,7 +73,7 @@
         <section class="offer" style=" display: flex; flex-direction: column; border: 0.5 px solid black; padding: 10px; margin: 5px;  ">
            <div class="off-head">
                 <div class="about-btn">What we offer</div>
-                <h2>Everything you need in one place</h2>
+                <h3>Everything you need in one place</h3>
            </div>
            <div class="off-cards" style=" display: flex;">
              <div class="offer-card">
@@ -93,14 +93,107 @@
              </div>
            </div>
         </section>
-    </div>
-<script>
-    let themeSwitch = document.querySelector("#theme-switch");
+
+        <div class="section-title off-head">
+
+            <div class="about-btn">How It Works</div>
+            <h3>Simple steps to get your image</h3>
+
+        </div>
+        <div class="steps">
+           <div class="step">
+           <div class="step-number">01</div>
+           <div class="step-icon" style="background:#ece7ff;">🔍</div>
+           <h4>Search</h4>
+           <p>Search images by keyword or browse categories.</p>
+       </div>
+        <div class="arrow">→</div>
+        <div class="step">
+            <div class="step-number">02</div>
+                <div class="step-icon" style="background:#e3f0ff;">🔲</div>
+                <h4>Explore</h4>
+                <p>Explore beautiful images from our collection.</p>
+            </div>
+            <div class="arrow">→</div>
+        <div class="step">
+            <div class="step-number">03</div>
+            <div class="step-icon" style="background:#e3fbe9;">👁️</div>
+                 <h4>View</h4>
+                 <p>Preview the image and check photographer details.</p>
+            </div>
+            <div class="arrow">→</div>
+             <div class="step">
+                 <div class="step-number">04</div>
+                     <div class="step-icon" style="background:#ffe9d6;">⬇️</div>
+                     <h4>Download</h4>
+                     <p>Download high quality image for free.</p>
+                 </div>
+             </div>
+
+             <div class="stats">
+                 <div class="stat">
+                      <div class="stat-icon" style="background:#ece7ff;color:#6c4cf1;">🖼️</div>
+                      <div><h3>120+</h3><p>Images</p></div>
+                 </div>
+             <div class="stat">
+             <div class="stat-icon" style="background:#e3fbe9;color:#22c55e;">👥</div>
+                 <div><h3>50+</h3><p>Photographers</p></div>
+             </div>
+             <div class="stat">
+                 <div class="stat-icon" style="background:#e3f0ff;color:#3b82f6;">⬇️</div>
+                 <div><h3>100+</h3><p>Downloads</p></div>
+             </div>
+             <div class="stat">
+                 <div class="stat-icon" style="background:#ffe4ec;color:#f43f8e;">❤️</div>
+                 <div><h3>100%</h3><p>Free to Use</p></div>
+             </div>
+          </div>
+
+          <div class="section-title off-head">
+             <span class="about-btn">Why Choose Us</span>
+             <h3>Built for a better experience</h3>
+          <div class="underline"></div>
+       </div>
+       <div class="why-us">
+         <div class="why-card">
+             <div class="icon-box icon-purple">🏷️</div>
+             <h4>Pexels API</h4>
+             <p>Powered by Pexels API to provide stunning and reliable images.</p>
+         </div>
+         <div class="why-card">
+             <div class="icon-box icon-blue">📱</div>
+             <h4>Responsive Design</h4>
+             <p>Fully responsive and works perfectly on all devices.</p>
+         </div>
+         <div class="why-card">
+             <div class="icon-box icon-purple">🌙</div>
+             <h4>Dark Mode</h4>
+             <p>Switch between light and dark mode for comfortable viewing.</p>
+         </div>
+         <div class="why-card">
+             <div class="icon-box icon-pink">♾️</div>
+             <h4>Infinite Scroll</h4>
+             <p>Load more images seamlessly with our load more feature.</p>
+         </div>
+      </div>
+
+      <div class="cta">
+          <div>
+             <h3>Ready to explore amazing images?</h3>
+             <p>Start searching and download high quality images for free.</p>
+         </div>
+         <button class="button"><a href="index.html" style="text-decoration: none;">🖼️ Go to Gallery</a> › </button>
+      </div>
+  </div>
+  <script>
+      let themeSwitch = document.querySelector("#theme-switch");
 
        themeSwitch.addEventListener("change", () => {
        document.body.classList.toggle("dark");
 
-    });
-</script>
+      });
+
+     
+  </script>
 </body>
 </html>
