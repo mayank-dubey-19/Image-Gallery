@@ -28,7 +28,6 @@
         width: auto;
     }
 .one{
-    border: 0.5px solid #e6d3f7;
     border-radius: 4px;
     background: linear-gradient(135deg, #f0e8f6, #ededf8);
     width:60px;
@@ -108,6 +107,10 @@ body.dark .hero-text p {
 }
 
 body.dark .pill {
+    background: #374151;
+    color: #f9fafb;
+}
+body.dark .one{
     background: #374151;
     color: #f9fafb;
 }
@@ -290,7 +293,6 @@ body.dark .load-more-btn {
 .search-btn{
         height: 30px;
         width: 30px;
-        border: 1px solid #b0b3b6;
         border-radius: 5px;
         display: flex;
         justify-content: center;
@@ -360,7 +362,6 @@ body.dark .load-more-btn {
     }
 .view{
         margin-bottom: 3px; 
-        border: 0.5px solid #e6d3f7 ; 
         border-radius: 5px; 
         width: 50px; 
         display: flex; 
@@ -382,7 +383,6 @@ body.dark .load-more-btn {
     
 .download{
         margin-bottom: 3px; 
-        border: 0.5px solid #e6d3f7 ; 
         border-radius: 5px; 
         width: 50px; 
         display: flex; 
@@ -401,7 +401,6 @@ body.dark .load-more-btn {
         transform:translateY(0) scale(.98);
     }
 .load-more-btn{
-        border: 0.5px solid #b0b3b6  ; 
         border-radius: 5px; 
         width: 100px; 
         height: 25px; 
@@ -456,4 +455,7 @@ body.dark .load-more-btn {
     100% {
         background-position: -200% 0;
     }
+}
+a{
+    text-decoration: none; color:black;
 }
