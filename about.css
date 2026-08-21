@@ -119,8 +119,17 @@ body.dark .button{
     background: #374151;
     color: #f9fafb;
 }
+body.dark .one{
+    background: #374151;
+    color: #f9fafb;
+}
+body.dark a{
+    
+    color: #f9fafb;
+}
+
 .one{
-    border: 0.5px solid #e6d3f7;
+    
     border-radius: 4px;
     background: linear-gradient(135deg, #f0e8f6, #ededf8);
     width:60px;
@@ -353,12 +362,14 @@ body.dark .button{
 .cta p { font-size: 14px; opacity: 0.9; }
 .cta button {
     background: #fff;
-    color: black;
     border: none;
     padding: 12px 22px;
     border-radius: 10px;
     font-weight: 600;
     cursor: pointer;
+}
+a{
+    text-decoration: none; color: black;
 }
 
 @media (max-width: 900px) {
